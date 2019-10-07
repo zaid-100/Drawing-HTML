@@ -1,1 +1,60 @@
+<html>
+    <head> <style> body {margin-right: 50%;
+        font-family: sans-serif;
+        background-color: beige;
+        font-size: 22px;}
+    </style>
+    </head>
+<body>
+<script type="text/javascript">       
+    d3.select("body").append("h1").text("THIS TEXT IS ADDED THROUGH D 3!!!!!");
+    </script>
+<h1> Drawing HTML </h1>
+<h2> D3 </h2>
+<p> D3 allows us to do powerful things using several different pieces or methods that work together. These pieces are:
+    
+    
+    
+    </p>
+<ul><li> Select </li>
+    <li>append</li>
+    <li> text</li>
+    <li> style</li>
+     </ul>
+We will discuss what each of these commands or methods do in the following paragraphs to see how D3 works.
+    <h3> Select </h3>
+<p> The select command allows us to identify or select an element in HTML similar to the way it works in CSS. We can use the CSS selectors in the select command to identify an element in HTML. So, for example, if i wanted to select a heading h3 in HTML i could type in .select("h3") to select the h3 in D3.
+    </p>
+<h3> append </h3>
+    <p>
+    Append allows us to create a new HTML element resting inside another HTML element which is selected, but at the end of the bigger(selected) element. For example, if i wanted to create a heading inside a body, i would type .select("body").append("h1"). However, it would pop up at the end. In this way, an empty h1 element would be appended to the body of our page.
+    </p>
+<h3> text </h3>
+<p> Text allows us to add text or "strings" to an HTML element which is selected. So, if i wanted to add text to the h1 that i made earlier, i would just type in .select("body").append("h1").text("Curly Fries"); In this way, entirely new, totally functional elements can be added to the DOM through D3 </p>
+    <h3> style </h3>
+    <p>  The style command, as is evident, allows us to add CSS properties to our selections. So, if i were to add one more command to the code written earlier to append the Curly Fries Heading to the Body, i could change the way it looks through CSS as followed:
+    .select("body").append("h1").text("Curly Fries").style("color", "blue");
+    </p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
